@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main_page{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.07);
+    display: flex;
+}
+
+.main_content{
+    width: 100%;
+    height: 100%;
+}
+
+#main_cont_h1{
+    font-size: 20px;
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.Technical_Buisness{
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    width: 92%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0.4rem;
+}
+
+.Technical_b_head{
+    height: 24%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.07);
+    padding: 0.4rem;
+    border-bottom : 1px solid rgb(150, 185, 208)
+}
+
+.Technical_b_head h2{
+    font-size: 14px;
+
+}
+.Technical_b_head_button{
+    display: flex;
+
+}
+.Technical_b_head_button button{
+    width: 180px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 14px;
+    border-radius: 0;
+    border: 1px solid transparent;
+}
+
+
+#Technical{
+    background-color: #1579ab;
+    color: #fff;
+}
+#Technical.on_toggle_cls{
+    background-color: #f8f8f8;
+    border: 1px solid #1579ab;
+    color : #1579ab;
+}
+
+#Financial{
+    background-color: #f8f8f8;
+    border: 1px solid #1579ab;
+    color : #1579ab;
+}
+
+#Financial.on_toggle_cls{
+    background-color: #1579ab;
+    color: #fff;
+}
+
+.Technical_head_buttons{
+padding-top: 1rem;
+padding-left: 0.3rem;
+width: 100%;
+height: 5rem;
+display: flex;
+}
+
+.Technical_head_buttons button{
+    width: 180px;
+    height: 30px;
+    margin-top: 8px;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    text-align: center;
+    box-shadow: none;
+    border: 0;
+}
+
+#Buisness_cat{
+    background-color: #f8f8f8;
+    border: 1px solid #1579ab;
+    color : #1579ab;
+}
+#Contact_Det{
+
+    background-color: #1579ab;
+    color: #fff;
+
+}
+#Address_Det{
+    background-color: #f8f8f8;
+    border: 1px solid #1579ab;
+    color : #1579ab;
+}
+#Tax_Contact_Det{
+    background-color: #f8f8f8;
+    border: 1px solid #1579ab;
+    color : #1579ab;
+}
+.warning_banner{
+    width: 100%;
+    text-align: center;
+    background: rgb(255, 255, 158);
+    color: rgb(255, 129, 0);
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+}
+.Buisness_category_button{
+    display: flex;
+    justify-content: flex-end;
+}
+.Buisness_category_button button{
+    background-color: #0e5d84;
+    padding: 0.5rem;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.Approved_h1{
+    display: flex;
+    padding-left: 1rem;
+}
+.Approved_h1 h1{
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.contact_det_h ul li{
+    font-weight:bold;
+    margin-left: 3.9rem;
+    margin-top: 1.5rem;
+
+}
+
+.card_main{
+    width: 100%;
+    display: flex;
+
+    height: auto;
+    padding: 1.5rem;
+}
+.Table_Buisness{
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 20rem;
+}
+.Table_Buisness table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    overflow-y:scroll;
+    height:15rem;
+}
+.Table_Buisness table thead tr th{
+    background-color: #6192b1;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.Table_Buisness table thead tr #th_1{
+    width: 30%;
+}
+.Table_Buisness table tbody{
+    background-color: #f8f8f8;
+   
+}
+
+.Table_Buisness table tbody td{
+    display: table-cell;
+    padding: 0.75rem;
+    text-align: left;
+}
+.Table_Buisness table tbody #text_left_i{
+position: absolute;
+}
+
+.Buisness_Cat_Table h2{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+/* div for points */
+.points{
+    display: flex;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.point{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+/* or for orange copy paste this css */
+.slick_cd_or{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.slick_cd_or .point {
+    background-color: orange;
+}
+.slick_cd_or p{
+    margin-left: 0.7rem;
+    color: grey;
+    font-size: 14px;
+}
+
+.slick_cd_ye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.slick_cd_ye .point {
+    background-color: yellow;
+}
+.slick_cd_ye p{
+    margin-left: 0.7rem;
+    color: grey;
+    font-size: 14px;
+}
+.slick_cd_blk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.slick_cd_blk .point {
+    background-color: black;
+}
+.slick_cd_blk p{
+    margin-left: 0.7rem;
+    color: grey;
+    font-size: 14px;
+}
+
+.slick_cd_bl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.slick_cd_bl .point {
+    background-color: blue;
+}
+.slick_cd_bl p{
+    margin-left: 0.7rem;
+    color: grey;
+    font-size: 14px;
+}
+
+.slick_cd_gr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.slick_cd_gr .point {
+    background-color: green;
+}
+.slick_cd_gr p{
+    margin-left: 0.7rem;
+    color: grey;
+    font-size: 14px;
+}
+
+.slick_cd_re{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.slick_cd_re .point {
+    background-color: red;
+}
+.slick_cd_re p{
+    margin-left: 0.7rem;
+    color: grey;
+    font-size: 14px;
+}
+
+
+.buisness_table{
+    padding: 1rem;
+}
+.buisness_table table{
+    width: 100%;
+    border-collapse: collapse;
+    padding: 1.2rem;
+}
+
+.buisness_table table thead{
+    padding: 1.2rem;
+    background-color: #1579ab;
+    color: #fff;
+    text-align: left;
+}
+
+.buisness_table table thead tr th{
+    padding: 10px;
+}
+.buisness_table table tbody tr td{
+    padding: 10px;
+}
+.buisness_table table tbody{
+    background-color: #f8f8f8;
+    text-align: left;
+}
+.card_main{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    width: 15rem;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.top_ic{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.comb_h_p h2{
+    font-size: 14px;
+    line-height: 4px;
+    color: teal;
+}
+.comb_h_p{
+   margin: 1rem;
+}
+
+.comb_h_p p{
+    margin-top: 1rem;
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.add_m h1{
+margin-left: 4rem;
+cursor: pointer;
+font-size: 14px;
+color: #1579ab;
+}

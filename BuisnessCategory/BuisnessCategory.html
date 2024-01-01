@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./BuisnessCategory.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./Sidebar/index.css">
+<link rel="stylesheet" href="./Sidebar.css">
+</head>
+<body>
+
+<!-- Format of HTML -->
+<div class="main_page">
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <h2>My Profile</h2>
+    <div class="profile">
+        <p>Partner Type</p>
+    </div>
+    <div>
+        <p>
+            Service Provider
+        </p>
+        <hr>
+    </div>
+
+    <a href="#" class="menu-item" onclick="loadPage('modifications.html')">Modifications</a>
+
+    <div class="menu-item" onclick="toggleSubMenu('general-submenu')">
+        General
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="general-submenu">
+        <a href="#" onclick="loadPage('organisationalDetails.html')">Organisational Details</a>
+        <a href="#" onclick="loadPage('bankDetails.html')">Bank Details</a>
+        <a href="#" onclick="loadPage('credentials.html')">Credentials</a>
+        <a href="#" onclick="loadPage('PartnershipAvenues.html')">Partnership Avenues</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubMenu('financial-submenu')">
+        Financial
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="financial-submenu">
+        <a href="#" onclick="loadPage('financialPerformance.html')">Financial Performance</a>
+        <a href="#" onclick="loadPage('others.html')">Others</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubMenu('innovation-submenu')">
+        Innovation
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="innovation-submenu">
+        <a href="#" onclick="loadPage('innovative.html')">Innovative</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubMenu('HSE-submenu')">
+        HSE
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="HSE-submenu">
+        <a href="#" onclick="loadPage('awardsAndCertifications.html')">Awards and Certifications</a>
+        <a href="#" onclick="loadPage('bestPractices.html')">Best Practices</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubMenu('Manpower-submenu')">
+        Manpower
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="Manpower-submenu">
+        <a href="#" onclick="loadPage('workforceDetails.html')">Workforce Details</a>
+        <a href="#" onclick="loadPage('statutoryCompliance.html')">Statutory Compliance</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubMenu('sustainability-submenu')">
+        Sustainability
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="sustainability-submenu">
+        <a href="#" onclick="loadPage('sustainability.html')">Sustainability</a>
+    </div>
+
+    <div class="menu-item" onclick="toggleSubMenu('attachments-submenu')">
+        Attachments
+        <span class="arrow-icon">&#9660;</span>
+    </div>
+    <div class="submenu" id="attachments-submenu">
+        <a href="#" onclick="loadPage('general.html')">General</a>
+        <a href="#" onclick="loadPage('financial.html')">Financial</a>
+    </div>
+
+</div>
+
+<!-- Main_Content -->
+<div class="main_content">
+<h1 id="main_cont_h1">QuickLinks</h1>
+
+<div class="Technical_Buisness">
+    <div class="Technical_b_head">
+        <h2>Select the type of document to Modify or to Add new:</h2>
+        <div class="Technical_b_head_button">
+            <button id="Technical">Technical</button>
+            <button id="Financial">Financial</button>
+    </div>
+
+
+
+</div>
+<div class="Technical_head_buttons">
+<button id="Buisness_cat">Buisness Categories</button>
+<button id="Contact_Det">Contact Details & Certificates</button>
+<button id="Address_Det">Address Details</button>
+<button id="Tax_Contact_Det">Tax Contact Details</button>
+</div>
+
+<div class="warning_banner">
+    Adding category here is not required for any business need. Kindly get the Empanelment done for the required categories.
+</div>
+<div class="Buisness_category_button">
+    <button>+ Add new Buisness Category</button>
+</div>
+
+<div class="Approved_h1">
+    <h1>Approved Buisness Categories <i class="fa-sharp fa-light fa-circle-check"></i> </h1>
+</div>
+
+<div class="Table_Buisness">
+    <table>
+<thead>
+    <!-- head_row -->
+    <tr>
+        <!-- Add columns -->
+        <th id="th_1">Partner Type</th>
+        <th>Categories</th>
+        <th>Sub-Categories</th>
+    </tr>
+</thead>
+
+<tbody>
+    <!-- data_row -->
+    <tr>
+    <td id="text_left_i">Service Provider</td>
+    <td>  
+    <ol>
+    <li>k</li> 
+    <li>k</li> 
+    <li>k</li> 
+    <li>k</li> 
+    <li>k</li> 
+    <li>k</li> 
+    <li>k</li> 
+    <li>k</li> 
+    </ol>
+    </td>
+    <td><ol>
+        <li>k</li> 
+        <li>k</li> 
+        <li>k</li> 
+        <li>k</li> 
+        <li>k</li> 
+        <li>k</li> 
+        <li>k</li> 
+        <li>k</li> 
+        </ol></td>
+    </tr>
+</tbody>
+      </table>
+</div>
+
+<div class="Buisness_Cat_Table">
+    <h2>Buisness Categories List</h2>
+
+    <div class="points">
+        <div class="slick_cd_or">
+            <div class="point"></div>
+            <p>Created (0)</p>
+        </div>
+
+        <div class="slick_cd_ye">
+            <div class="point"></div>
+            <p>Pending (0)</p>
+        </div>
+
+        <div class="slick_cd_re">
+            <div class="point"></div>
+            <p>Rejected (0)</p>
+        </div>
+    </div>
+
+    <div class="buisness_table">
+        <table>
+            <thead>
+                <!-- head_row -->
+                <tr>
+                    <!-- Add columns -->
+                    <th>Document Number</th>
+                    <th>Partner Type</th>
+                    <th>Categories</th>
+                    <th>Sub-Categories</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- data_row -->
+                <tr>
+                <td>No Results to show</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+                </tr>
+            </tbody>
+            </table>
+    </div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+<script src="./index.js"></script>
+</body>
+</html>
